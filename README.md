@@ -1,4 +1,4 @@
-# cypress-split-cucumber-example
+# cypress-split-cucumber-example ![cypress version](https://img.shields.io/badge/cypress-12.5.1-brightgreen) ![cypress-split version](https://img.shields.io/badge/cypress--split-1.2.0-brightgreen)
 
 > Run Cypress tests in parallel for free for Cucumber feature specs
 
