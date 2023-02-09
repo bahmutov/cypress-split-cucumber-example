@@ -6,6 +6,8 @@ Using the free plugin [cypress-split](https://github.com/bahmutov/cypress-split)
 
 📝 Read the blog post [Run Cypress Specs In Parallel For Free](https://glebbahmutov.com/blog/cypress-parallel-free/).
 
+![Split feature files on GitHub Actions](./images/cu.png)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023
