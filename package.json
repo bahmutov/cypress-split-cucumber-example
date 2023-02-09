@@ -1,8 +1,9 @@
 {
   "name": "cypress-split-cucumber-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run Cypress tests in parallel for free for Cucumber feature specs",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "cypress run",
     "badges": "npx -p dependency-version-badge update-badge cypress cypress-split",
@@ -11,9 +12,12 @@
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/e2e/step_definitions"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "cypress-split",
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^12.5.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
