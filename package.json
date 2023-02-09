@@ -1,0 +1,21 @@
+{
+  "name": "cypress-split-cucumber-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/step_definitions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-split": "^1.2.0",
+    "prettier": "^2.8.4"
+  }
+}
