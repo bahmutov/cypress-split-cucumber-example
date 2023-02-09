@@ -1,5 +1,5 @@
 const { defineConfig } = require('cypress')
-// const cypressSplit = require('./src')
+const cypressSplit = require('cypress-split')
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
@@ -8,7 +8,8 @@ module.exports = defineConfig({
     fixturesFolder: false,
     supportFile: false,
     setupNodeEvents(on, config) {
-      // cypressSplit(on, config)
+      cypressSplit(on, config)
+
       on('file:preprocessor', cucumber())
       // IMPORTANT: return the config object
       return config
